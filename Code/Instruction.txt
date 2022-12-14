@@ -1,0 +1,9 @@
+DSA--->
+
+1. Defination- Data struction and algoriths 
+2. Advantages-
+              -> To improve program solving skills
+              -> To do competive coding 
+              -> To crack an interview
+              -> To score high in brain puzzle.
+                  
