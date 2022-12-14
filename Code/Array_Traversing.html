@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First program array transversing</title>
+
+    <script>
+
+        // let arr=[1,2,3,4,5,6,7,8];
+        let arr = ["Chitranshu", "saini", "kailash", "rana"]
+
+        /**/
+        // for(var a=0; a<arr.length; a++){
+        //     document.writeln(` Array elements at ${a} is : ${arr[a]} <br> `)
+        // }
+
+        function getValue() {
+
+            let x = document.getElementById('Val').value;
+
+            if (x < arr.length) {
+                alert(`The element is${arr[x]} at position:${x}`)
+                alert(x);
+            }
+            else{
+                alert("Invalid index")
+            }
+
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <body>
+        <input type="text" placeholder="Enter the position" id="Val">
+        <!-- <button onclick="getValue()">Click Me</button> -->
+        <button onclick="getValue()">Click me </button>
+    </body>
+
+</body>
+
+
+</html>
